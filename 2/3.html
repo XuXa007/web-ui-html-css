@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Стилизованные таблицы</title>
+    <style>
+      tbody tr:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+      }
+
+      tr:nth-child(odd) {
+        background-color: rgb(240, 240, 240);
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid rgb(222, 222, 222);
+      }
+
+      th {
+        background-color: rgb(222, 222, 222);
+        text-align: left;
+      }
+
+      td {
+        width: 250px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Population</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Somewhere</td>
+          <td>3M</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Somewhere else</td>
+          <td>12M</td>
+          <td>125</td>
+        </tr>
+        <tr>
+          <td>That place</td>
+          <td>23M</td>
+          <td>235</td>
+        </tr>
+        <tr>
+          <td>Somewhere</td>
+          <td>3M</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Somewhere else</td>
+          <td>12M</td>
+          <td>125</td>
+        </tr>
+        <tr>
+          <td>That place</td>
+          <td>23M</td>
+          <td>235</td>
+        </tr>
+        <tr>
+          <td>Somewhere</td>
+          <td>23M</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Somewhere else</td>
+          <td>12M</td>
+          <td>125</td>
+        </tr>
+        <tr>
+          <td>That place</td>
+          <td>12M</td>
+          <td>235</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

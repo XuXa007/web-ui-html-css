@@ -1,0 +1,59 @@
+<!-- не сдано -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Фотогалерея</title>
+    <style>
+      ul {
+        align-items: center;
+      }
+
+      body,
+      ul,
+      li {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+      }
+
+      img {
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+        border: 0.4rem black solid;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        object-fit: contain;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="gallery">
+      <ol>
+        <li>
+          <ul>
+            <li><img src="picture1.jpg" /></li>
+            <li><img src="picture2.jpg" /></li>
+            <li><img src="picture3.jpg" /></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li><img src="picture4.jpg" /></li>
+            <li><img src="picture5.jpg" /></li>
+            <li><img src="picture6.jpg" /></li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li><img src="picture7.jpg" /></li>
+            <li><img src="picture8.jpg" /></li>
+            <li><img src="picture9.jpg" /></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+  </body>
+</html>
