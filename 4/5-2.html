@@ -8,59 +8,53 @@
     <title>Карточки</title>
     <style>
       body {
-        display: flex;
-        flex-direction: column;
-        /* margin: 0; */
-        padding: 40px 25%;
+        margin: auto;
+        padding: 40px;
         background-color: rgb(238, 238, 238);
       }
 
+      
       .cards-layout {
-        margin: 10px;
-
-        /* background-color: #fff; */
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        justify-content: space-between;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
       }
 
       .card {
-        width: 30%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
         background-color: #fff;
-        /* width: 30%; */
-        margin: 10px 0;
-        /* padding: 20px; */
+        width: 30%;
+        margin: 10px;
         border: 1px solid #ccc;
-        border-radius: 5px;
+        border-radius: 7px;
+        box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.03);
       }
 
       img {
         width: 100%;
-        /* height: auto; */
-        border-radius: 5px;
-      }
-
-      div {
-        /* margin-top: 10px; */
       }
 
       .text,
       .down {
+        font-family: Arial, Helvetica, sans-serif;
         padding: 20px;
         line-height: 1.5;
-        flex-grow: 1;
       }
 
-      .down {
-        align-items: end;
-        text-combine-upright: ;
-        /* place-content: end; */
-        /* position: absolute; */
+      hr {
+        border: 0.5px solid #ccc;
+      }
+
+      .ground {
+        margin-top: auto;
       }
     </style>
   </head>
   <body>
-    <h2>Layout Masonry<br /></h2>
+    <h2>Layout Flex<br /></h2>
     <div class="cards-layout">
       <div class="card">
         <img src="Image1.jpg" alt="" />
@@ -71,8 +65,10 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-        <hr />
-        <div class="down">More interesting things about the thing</div>
+        <div class="ground">
+          <hr />
+          <div class="down">More interesting things about the thing</div>
+        </div>
       </div>
 
       <div class="card">
@@ -84,10 +80,9 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-
-        <div class="text">
+        <div class="ground">
           <hr />
-          More interesting things about the thing
+          <div class="down">More interesting things about the thing</div>
         </div>
       </div>
 
@@ -101,7 +96,10 @@
           molestiae corporis. Odio!
         </div>
         <hr />
-        <div class="text">More interesting things about the thing</div>
+        <div class="ground">
+          <hr />
+          <div class="down">More interesting things about the thing</div>
+        </div>
       </div>
 
       <div class="card">
@@ -113,8 +111,10 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-        <hr />
-        <div class="text">More interesting things about the thing</div>
+        <div class="ground">
+          <hr />
+          <div class="down">More interesting things about the thing</div>
+        </div>
       </div>
 
       <div class="card">
@@ -126,8 +126,10 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-        <hr />
-        <div class="text">More interesting things about the thing</div>
+        <div class="ground">
+          <hr />
+          <div class="down">More interesting things about the thing</div>
+        </div>
       </div>
 
       <div class="card">
@@ -139,8 +141,10 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-        <hr />
-        <div class="text">More interesting things about the thing</div>
+        <div class="ground">
+          <hr />
+          <div class="down">More interesting things about the thing</div>
+        </div>
       </div>
 
       <div class="card">
@@ -152,8 +156,10 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-        <hr />
-        <div class="text">More interesting things about the thing</div>
+        <div class="ground">
+          <hr />
+          <div class="down">More interesting things about the thing</div>
+        </div>
       </div>
 
       <div class="card">
@@ -165,8 +171,10 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-        <hr />
-        <div class="text">More interesting things about the thing</div>
+        <div class="ground">
+          <hr />
+          <div class="down">More interesting things about the thing</div>
+        </div>
       </div>
     </div>
   </body>
