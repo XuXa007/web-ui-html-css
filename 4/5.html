@@ -8,29 +8,32 @@
     <title>Карточки</title>
     <style>
       body {
-        margin: 10% 4%;
+        margin: auto;
         background-color: rgb(238, 238, 238);
+        padding-left: 10%;
       }
 
       .cards-layout {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        padding: 0 10px; 
       }
 
       .card {
         display: flex;
         flex-direction: column;
         background-color: #fff;
-        width: 30%;
+        width: 28%;
         margin: 10px;
         border: 1px solid #ccc;
-        border-radius: 7px;
+        border-radius: 10px;
         box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.03);
       }
 
       img {
         width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
       }
 
       .text,
@@ -46,6 +49,10 @@
 
       .ground {
         margin-top: auto;
+      }
+
+      h2 {
+        padding-left: 10px;
       }
     </style>
   </head>
@@ -91,7 +98,6 @@
           laudantium iure, ut inventore eaque fugit ex porro totam perspiciatis
           molestiae corporis. Odio!
         </div>
-        <hr />
         <div class="ground">
           <hr />
           <div class="down">More interesting things about the thing</div>
